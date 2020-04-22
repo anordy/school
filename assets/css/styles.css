@@ -39,6 +39,34 @@ a.btns{
     border-radius: 25px;
 }
 #guide{
+    height: 750px;
     background-color: green;
-    height: 800px;
 }
+#head{
+    height: 800px;
+    background: url("../img/hero-1.jpg");
+    background-attachment: fixed;
+}
+.box{
+    margin-top: -300px;
+    height: 250px;
+    width: 400px;
+    padding: 5px;
+    float: right;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.float::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.containers{
+    height: 250px;
+    width: 1000px;
+    margin-left: 380px;
+    font-size: large;
+    background-color: rgb(168, 148, 148);
+    box-shadow: 5px 5px 5px 5px grey;
+}
+

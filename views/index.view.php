@@ -1,17 +1,6 @@
 <?php include("partials/header.html") ?>
-<!--main nav-->$
-    <nav class="navbar navbar-expand-sm bg-light">
-        <div class="container">
-            <div class="navbar-brand">
-                <a href="/" ><img src="assets/img/list-1.png" alt="">MUSABE</a>
-            </div>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="/" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="/" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<?php include("partials/nav.html") ?>
+
 
     <!--home-->
 
@@ -25,8 +14,8 @@
 
                         <h4 class="mt-5">#StayAtHome</h4>
 
-                        <a href="/" class="btn btn-success btn-lg mt-4 btns">FORM 2</a><br>
-                        <a href="/" class="btn btn-success btn-lg mt-4 btns">FORM 4</a>
+                        <a href="form2" class="btn btn-success btn-lg mt-4 btns">FORM II</a><br>
+                        <a href="form4" class="btn btn-success btn-lg mt-4 btns">FORM IV</a>
 
                     </div>
                 </div>
