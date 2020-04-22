@@ -56,7 +56,7 @@
                 <h4 style="text-align: left">Tuma Kazi Zako Haoa</h4>
             </div>
             <div class="col-lg-6">
-                <a href="/" class="btn btn-lg btn-danger mt-5">Upload Here</a>
+                <a href="upload" class="btn btn-lg btn-danger mt-5">Upload Here</a>
             </div>
         </div>
     </div>
