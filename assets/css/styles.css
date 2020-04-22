@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.navbar a {
+    color: black;
+    text-transform: uppercase;
+}
+.nav-item a:hover {
+    color: darkgreen;
+    border-bottom: darkgreen 2px solid;
+}
+
+#home{
+    background-image: url("../img/hero-1.jpg");
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+.darkoverlay{
+    background: linear-gradient(#333,brown);
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    opacity: 0.7;  
+
+}
+.center{
+    padding-top: 180px;
+    padding-left: 250px;
+    color: antiquewhite;
+    text-align: center;
+    
+}
+a.btns{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+#guide{
+    background-color: green;
+    height: 800px;
+}
