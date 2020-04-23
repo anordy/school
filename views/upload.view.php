@@ -18,14 +18,19 @@
         <form action="upload" method="post" enctype="multipart/form-data">
         <div class="row mt-5">
             <div class="col-lg-6 pl-4">
-                    <label for="name">Firstname:</label><br>
-                    <input type="text" name="fname" placeholder="Name">
+            <div class="form-group">
+                        <label for="name">Firstname:</label>
+                        <input class="form-control" name="fname" placeholder="Name" id="fname">
+                    </div>
             </div>
 
             <div class="col-lg-6 pr-4">
-                    <label for="name">Lastname:</label><br>
-                    <input type="text" name="lname" placeholder="Name">
-            </div>
+                    <div class="form-group">
+                        <label for="name">Lastname:</label>
+                        <input class="form-control" name="lname" placeholder="Name" id="lname">
+                        
+                    </div>
+                </div>
         </div>
 
         <div class="row mt-3">
@@ -43,15 +48,15 @@
             </div>
             <div class="col-lg-4">
                     <label for="name">Choose Scaned PDF upload not Picture pls <span style="color: red">*</span> </label>
-                    <input type="file" name="fileToUpload" >
+                    <input type="file" name="fileToUpload" placeholder="Choose file" id="fileToUpload">
             </div>
 
-            <!-- <div class="col-lg-4">
+            <div class="col-lg-4">
                     <label for="name">Upload Subject 2<span style="color: red">*</span> </label>
-                    <input type="file" name="fileToUpload" >
-            </div> -->
+                    <input type="file" name="fileToUploads" placeholder="choose file" id="fileToUploads">
+            </div>
         </div>
-        <a href="" class="btn btn-block btn-success mt-5 send">Send</a>
+        <button class="btn btn-block btn-success mt-5 send" type="submit" name="submit">Send</button>
 </form>
 
         

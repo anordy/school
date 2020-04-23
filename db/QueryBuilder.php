@@ -24,14 +24,14 @@ class QueryyBuilder {
 
     public function insert($data)
     {
-    $sql = "INSERT INTO {$data['table']}(" .implode(',', $data['columns']). ") VALUES (?,?,?,?) ";
+    $sql = "INSERT INTO {$data['table']}(" .implode(',', $data['columns']). ") VALUES (?,?,?,?,?) ";
     $stmt = $this->conn->prepare($sql);
-    $stmt->bind_param("sssss", $data["firstname"], $data["lastname"], $data["class"], $data["file_path"]);
+    $stmt->bind_param("sssss", $data["firstname"], $data["lastname"], $data["class"], $data["file_path"],$data["file_paths"]);
     $results = $stmt->execute();
     if($results){
-        header: 'Location /';
+            header("Location: /");
     }else{
-        echo "Error:" . mysqli_error($sql);
+        echo "Error:" . mysqli_error($this->conn);
     }
 
     }

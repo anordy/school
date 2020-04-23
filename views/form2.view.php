@@ -32,7 +32,7 @@
 
 
     </ul>
-    <a href="/" class="btn btn-lg btn-success mt-3 ml-2">Download Here</a>
+    <a href="storage/uploads/530976.jpg" class="btn btn-lg btn-success mt-3 ml-2">Download Here</a>
 </div>
 
 <div class="containers mt-5">
@@ -44,7 +44,7 @@
 
 
     </ul>
-    <a href="/" class="btn btn-lg btn-success mt-3 ml-2">Download Here</a>
+    <a href="storage/uploads/" class="btn btn-lg btn-success mt-3 ml-2">Download Here</a>
 </div>
 
 
