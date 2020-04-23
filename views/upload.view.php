@@ -15,62 +15,46 @@
 <li>Any Problem ask for Help</li>
         </ul>
 
+        <form action="upload" method="post" enctype="multipart/form-data">
         <div class="row mt-5">
             <div class="col-lg-6 pl-4">
-                <form action="">
                     <label for="name">Firstname:</label><br>
                     <input type="text" name="fname" placeholder="Name">
-                </form>
             </div>
 
             <div class="col-lg-6 pr-4">
-                <form action="">
                     <label for="name">Lastname:</label><br>
                     <input type="text" name="lname" placeholder="Name">
-                </form>
             </div>
         </div>
 
         <div class="row mt-3">
             <div class="col-lg-4 pl-4">
-                <form action="">
-                    <label for="class">Class</label>
-                    <div class="input-group">
-                    <input type="text"  class="form-control "  >
-                            <div class="input-group-append ">
-                            <div class="dropdown">
-
-                                <button class="btn btn-lg dropdown-toggle" data-toggle="dropdown"></button>
-                           </div>
-                        
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item-text active">Form II</a>
-                            <a class="dropdown-item-text">Form IV</a>
-                        </div>
-                            </div>
-                    </div>
+                <div class="form-group">
+                <label for="class">Class</label>
+                <select class="form-control"  name="class" id="class">
+                    <option>Form II</option>
+                    <option>Form IV</option>
+                </select>
+            </div>
                 
 
-                </form>
                 
             </div>
             <div class="col-lg-4">
-                <form action="">
                     <label for="name">Choose Scaned PDF upload not Picture pls <span style="color: red">*</span> </label>
                     <input type="file" name="fileToUpload" >
-                </form>
             </div>
 
-            <div class="col-lg-4">
-                <form action="">
+            <!-- <div class="col-lg-4">
                     <label for="name">Upload Subject 2<span style="color: red">*</span> </label>
                     <input type="file" name="fileToUpload" >
-                </form>
-            </div>
+            </div> -->
         </div>
         <a href="" class="btn btn-block btn-success mt-5 send">Send</a>
+</form>
 
+        
 </div>
-
 
 <?php include("partials/footer.html") ?>

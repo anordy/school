@@ -28,7 +28,7 @@
     <ul class="mt-4" >
         <li>Do it in You Home Package Book</li>
         <li>Make Sure you Write your name on top-left corner /Date on the Top-right corner</li>
-        <li>Scan it with CamScanner when Done and send <span><a href="/">[UPLOAD]</a></span> it as <b>PDF</b> before 20:30</li>
+        <li>Scan it with CamScanner when Done and send <span><a href="upload">[UPLOAD]</a></span> it as <b>PDF</b> before 20:30</li>
 
 
     </ul>
@@ -40,7 +40,7 @@
     <ul class="mt-4" >
         <li>Do it in You Home Package Book</li>
         <li>Make Sure you Write your name on top-left corner /Date on the Top-right corner</li>
-        <li>Scan it with CamScanner when Done and send <span><a href="/">[UPLOAD]</a></span> it as <b>PDF</b> before 20:30</li>
+        <li>Scan it with CamScanner when Done and send <span><a href="upload">[UPLOAD]</a></span> it as <b>PDF</b> before 20:30</li>
 
 
     </ul>
